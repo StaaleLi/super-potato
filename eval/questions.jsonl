@@ -1,0 +1,6 @@
+{"question":"Which customers are at revenue risk this week, and what evidence supports it?","expected_tools":["knowledge_search","sql_query","risk_audit"],"expected_warning_substrings":["Open P1 ticket","CRM note"],"expected_answer_substrings":["Acme Retail"]}
+{"question":"What is the refund policy for enterprise customers?","expected_tools":["knowledge_search","risk_audit"],"expected_warning_substrings":["Refund answer"],"expected_answer_substrings":["knowledge base"]}
+{"question":"Show plan health by segment","expected_tools":["knowledge_search","sql_query","risk_audit"],"expected_warning_substrings":["Segment summary"],"expected_answer_substrings":["Plan health"]}
+{"question":"Why is Acme Retail risky?","expected_tools":["knowledge_search","sql_query","risk_audit"],"expected_warning_substrings":["Open P1 ticket","manual validation"],"expected_answer_substrings":["Acme Retail"]}
+{"question":"What is the escalation policy for unresolved P1 tickets?","expected_tools":["knowledge_search"],"expected_warning_substrings":[],"expected_answer_substrings":["knowledge base"]}
+{"question":"Is Globex Logistics a churn risk?","expected_tools":["sql_query","risk_audit"],"expected_warning_substrings":["Invoice status","false positive"],"expected_answer_substrings":["Globex Logistics"]}
